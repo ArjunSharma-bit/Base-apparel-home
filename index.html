@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <header class="header">
+      <img src="./images/logo.svg" alt="Base Apparellogo">
+    </header>
+    <section class="content-panel">
+      <article class="text-content">
+        <h1 class="title">
+          <span class="title-light">We're</span><br>
+          COMING SOON
+        </h1>
+        <p class="desc">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+      </article>
+
+      <form class="email-form" id="form" novalidate>
+        <div class="input-wrapper">
+          <input type="email" id="email" class="email-input" placeholder="Email Address">
+          <img src="./images/icon-error.svg" alt="Error" class="error-icon hidden">
+          <button type="submit" class="submit-button">
+            <img src="./images/icon-arrow.svg" alt="Submit Button">
+          </button>
+        </div>
+        <p class="error-text hidden">please provide a valid email</p>
+      </form>
+    </section>
+    <section class="hero-panel">
+      <picture>
+        <source media="(min-width: 800px)" srcset="./images/hero-desktop.jpg">
+        <img src="./images/hero-mobile.jpg" alt="fashion Model" class="hero-img">
+      </picture>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
