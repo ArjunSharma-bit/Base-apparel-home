@@ -142,6 +142,13 @@ body {
 }
 
 @media (min-width: 800px) {
+    body {
+        align-items: center;
+        justify-content: center;
+        background: url(./images/bg-pattern-desktop.svg) no-repeat left top, var(--bg-gradient);
+        background-size: 60vw 100vh, cover;
+    }
+
     .container {
         display: grid;
         grid-template-columns: 1.3fr 1fr;
